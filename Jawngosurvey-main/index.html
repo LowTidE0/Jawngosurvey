@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+<main>
+  <header>
+    <h1 id="title">Jawngo Smoothies Survey</h1>
+    <a href="jawngo.com">
+    <img src="https://www.jawngo.com/cdn/shop/files/IMG_4481.jpg?v=1749264394&width=140" height="100" width="350"></a>
+<p id="description">Let us know how about our smoothies!</p>
+<form id="survey-form" action="jawngosmoothies.com">
+  <fieldset>
+    <legend>Personal Information</legend>
+    <label id="name-label">Name:</label>
+    <input id="name-label" type="text" required placeholder="Sam Spradlin">
+    <label id="email-label">Email:</label>
+    <input type="text" id="email-label" placeholder="emailgoes@here.com" required>
+    <label id="number-label">Age:</label> 
+    <input id="number-label" type="number" placeholder="19" min="10" max="100">
+    </fieldset>
+    <fieldset>
+      <legend>How would you rate our smoothies</legend>
+    <label id="dropdown">How was the taste:</label>
+    <select id="dropdown">
+      <option select value="good"> Good</option>
+<option value="not-good">Not so good</option>
+<option value="best">Best thing I've ever had inside me</option>
+      </select></br>
+      <label id="consistency">How was the consistency:</label>
+      <input type="radio" name="consistency" value="needs-work">Needs Work</input>
+      <input type="radio" name="consistency" value="consistently-good">Consistently good</input><br/>
+      <label id="buying">How usable is our website:</label>
+      <input type="checkbox" value="easy" id="easy">
+      <label for="easy">Easy to buy what I want</label>
+      <input type="checkbox" id="hard" value="hard">
+      <label for="hard">No one could figure this out</label>
+      <input type="checkbox" id="beautiful" value="beautiful">
+      <label for="beautiful">Beautiful design</label>
+      <input type="checkbox" value="ugly" id="ugly">
+      <label for="ugly">Kinda ugly bro</label>
+      </fieldset>
+      <fieldset>
+        <legend>Tell us how you really feel.</legend>
+        <textarea rows="5" cols="50">
+          Leave message here
+        </textarea>
+<button type="submit" id="submit">Submit</button>
+ 
+    </fieldset>
+  </form>
+  <body></body>
+</html>
